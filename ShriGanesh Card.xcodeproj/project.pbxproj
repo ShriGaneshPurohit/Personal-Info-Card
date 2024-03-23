@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4340B03C2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B03B2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift */; };
+		4340B03E2BAF4C46007D0D4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B03D2BAF4C46007D0D4E /* ContentView.swift */; };
+		4340B0402BAF4C49007D0D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4340B03F2BAF4C49007D0D4E /* Assets.xcassets */; };
+		4340B0432BAF4C49007D0D4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4340B0422BAF4C49007D0D4E /* Preview Assets.xcassets */; };
+		4340B04D2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B04C2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift */; };
+		4340B0572BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B0562BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift */; };
+		4340B0592BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B0582BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4340B0492BAF4C49007D0D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4340B0302BAF4C46007D0D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4340B0372BAF4C46007D0D4E;
+			remoteInfo = "ShriGanesh Card";
+		};
+		4340B0532BAF4C49007D0D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4340B0302BAF4C46007D0D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4340B0372BAF4C46007D0D4E;
+			remoteInfo = "ShriGanesh Card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4340B0382BAF4C46007D0D4E /* ShriGanesh Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShriGanesh Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4340B03B2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardApp.swift; sourceTree = "<group>"; };
+		4340B03D2BAF4C46007D0D4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4340B03F2BAF4C49007D0D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4340B0422BAF4C49007D0D4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4340B0482BAF4C49007D0D4E /* ShriGanesh CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShriGanesh CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4340B04C2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardTests.swift; sourceTree = "<group>"; };
+		4340B0522BAF4C49007D0D4E /* ShriGanesh CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShriGanesh CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4340B0562BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardUITests.swift; sourceTree = "<group>"; };
+		4340B0582BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4340B0352BAF4C46007D0D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4340B0452BAF4C49007D0D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4340B04F2BAF4C49007D0D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4340B02F2BAF4C46007D0D4E = {
+			isa = PBXGroup;
+			children = (
+				4340B03A2BAF4C46007D0D4E /* ShriGanesh Card */,
+				4340B04B2BAF4C49007D0D4E /* ShriGanesh CardTests */,
+				4340B0552BAF4C49007D0D4E /* ShriGanesh CardUITests */,
+				4340B0392BAF4C46007D0D4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4340B0392BAF4C46007D0D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4340B0382BAF4C46007D0D4E /* ShriGanesh Card.app */,
+				4340B0482BAF4C49007D0D4E /* ShriGanesh CardTests.xctest */,
+				4340B0522BAF4C49007D0D4E /* ShriGanesh CardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4340B03A2BAF4C46007D0D4E /* ShriGanesh Card */ = {
+			isa = PBXGroup;
+			children = (
+				4340B03B2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift */,
+				4340B03D2BAF4C46007D0D4E /* ContentView.swift */,
+				4340B03F2BAF4C49007D0D4E /* Assets.xcassets */,
+				4340B0412BAF4C49007D0D4E /* Preview Content */,
+			);
+			path = "ShriGanesh Card";
+			sourceTree = "<group>";
+		};
+		4340B0412BAF4C49007D0D4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4340B0422BAF4C49007D0D4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4340B04B2BAF4C49007D0D4E /* ShriGanesh CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4340B04C2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift */,
+			);
+			path = "ShriGanesh CardTests";
+			sourceTree = "<group>";
+		};
+		4340B0552BAF4C49007D0D4E /* ShriGanesh CardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4340B0562BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift */,
+				4340B0582BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift */,
+			);
+			path = "ShriGanesh CardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4340B0372BAF4C46007D0D4E /* ShriGanesh Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4340B05C2BAF4C49007D0D4E /* Build configuration list for PBXNativeTarget "ShriGanesh Card" */;
+			buildPhases = (
+				4340B0342BAF4C46007D0D4E /* Sources */,
+				4340B0352BAF4C46007D0D4E /* Frameworks */,
+				4340B0362BAF4C46007D0D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShriGanesh Card";
+			productName = "ShriGanesh Card";
+			productReference = 4340B0382BAF4C46007D0D4E /* ShriGanesh Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4340B0472BAF4C49007D0D4E /* ShriGanesh CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4340B05F2BAF4C49007D0D4E /* Build configuration list for PBXNativeTarget "ShriGanesh CardTests" */;
+			buildPhases = (
+				4340B0442BAF4C49007D0D4E /* Sources */,
+				4340B0452BAF4C49007D0D4E /* Frameworks */,
+				4340B0462BAF4C49007D0D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4340B04A2BAF4C49007D0D4E /* PBXTargetDependency */,
+			);
+			name = "ShriGanesh CardTests";
+			productName = "ShriGanesh CardTests";
+			productReference = 4340B0482BAF4C49007D0D4E /* ShriGanesh CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4340B0512BAF4C49007D0D4E /* ShriGanesh CardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4340B0622BAF4C49007D0D4E /* Build configuration list for PBXNativeTarget "ShriGanesh CardUITests" */;
+			buildPhases = (
+				4340B04E2BAF4C49007D0D4E /* Sources */,
+				4340B04F2BAF4C49007D0D4E /* Frameworks */,
+				4340B0502BAF4C49007D0D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4340B0542BAF4C49007D0D4E /* PBXTargetDependency */,
+			);
+			name = "ShriGanesh CardUITests";
+			productName = "ShriGanesh CardUITests";
+			productReference = 4340B0522BAF4C49007D0D4E /* ShriGanesh CardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4340B0302BAF4C46007D0D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4340B0372BAF4C46007D0D4E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4340B0472BAF4C49007D0D4E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4340B0372BAF4C46007D0D4E;
+					};
+					4340B0512BAF4C49007D0D4E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4340B0372BAF4C46007D0D4E;
+					};
+				};
+			};
+			buildConfigurationList = 4340B0332BAF4C46007D0D4E /* Build configuration list for PBXProject "ShriGanesh Card" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4340B02F2BAF4C46007D0D4E;
+			productRefGroup = 4340B0392BAF4C46007D0D4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4340B0372BAF4C46007D0D4E /* ShriGanesh Card */,
+				4340B0472BAF4C49007D0D4E /* ShriGanesh CardTests */,
+				4340B0512BAF4C49007D0D4E /* ShriGanesh CardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4340B0362BAF4C46007D0D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4340B0432BAF4C49007D0D4E /* Preview Assets.xcassets in Resources */,
+				4340B0402BAF4C49007D0D4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4340B0462BAF4C49007D0D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4340B0502BAF4C49007D0D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4340B0342BAF4C46007D0D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4340B03E2BAF4C46007D0D4E /* ContentView.swift in Sources */,
+				4340B03C2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4340B0442BAF4C49007D0D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4340B04D2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4340B04E2BAF4C49007D0D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4340B0592BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift in Sources */,
+				4340B0572BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4340B04A2BAF4C49007D0D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4340B0372BAF4C46007D0D4E /* ShriGanesh Card */;
+			targetProxy = 4340B0492BAF4C49007D0D4E /* PBXContainerItemProxy */;
+		};
+		4340B0542BAF4C49007D0D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4340B0372BAF4C46007D0D4E /* ShriGanesh Card */;
+			targetProxy = 4340B0532BAF4C49007D0D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4340B05A2BAF4C49007D0D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4340B05B2BAF4C49007D0D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4340B05D2BAF4C49007D0D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShriGanesh Card/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T4F842V7Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shriganesh.ShriGanesh-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4340B05E2BAF4C49007D0D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShriGanesh Card/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T4F842V7Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shriganesh.ShriGanesh-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4340B0602BAF4C49007D0D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T4F842V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shriganesh.ShriGanesh-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShriGanesh Card.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShriGanesh Card";
+			};
+			name = Debug;
+		};
+		4340B0612BAF4C49007D0D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T4F842V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shriganesh.ShriGanesh-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShriGanesh Card.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShriGanesh Card";
+			};
+			name = Release;
+		};
+		4340B0632BAF4C49007D0D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T4F842V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shriganesh.ShriGanesh-CardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShriGanesh Card";
+			};
+			name = Debug;
+		};
+		4340B0642BAF4C49007D0D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T4F842V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shriganesh.ShriGanesh-CardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShriGanesh Card";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4340B0332BAF4C46007D0D4E /* Build configuration list for PBXProject "ShriGanesh Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4340B05A2BAF4C49007D0D4E /* Debug */,
+				4340B05B2BAF4C49007D0D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4340B05C2BAF4C49007D0D4E /* Build configuration list for PBXNativeTarget "ShriGanesh Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4340B05D2BAF4C49007D0D4E /* Debug */,
+				4340B05E2BAF4C49007D0D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4340B05F2BAF4C49007D0D4E /* Build configuration list for PBXNativeTarget "ShriGanesh CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4340B0602BAF4C49007D0D4E /* Debug */,
+				4340B0612BAF4C49007D0D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4340B0622BAF4C49007D0D4E /* Build configuration list for PBXNativeTarget "ShriGanesh CardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4340B0632BAF4C49007D0D4E /* Debug */,
+				4340B0642BAF4C49007D0D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4340B0302BAF4C46007D0D4E /* Project object */;
+}
