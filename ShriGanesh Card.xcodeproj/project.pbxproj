@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4336BA622BB5798C00B477C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4336BA612BB5798C00B477C6 /* LaunchScreen.storyboard */; };
+		4336BA642BB57ADE00B477C6 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4336BA632BB57ADE00B477C6 /* info.plist */; };
 		4340B03C2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B03B2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift */; };
 		4340B03E2BAF4C46007D0D4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B03D2BAF4C46007D0D4E /* ContentView.swift */; };
 		4340B0402BAF4C49007D0D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4340B03F2BAF4C49007D0D4E /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		4340B04D2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B04C2BAF4C49007D0D4E /* ShriGanesh_CardTests.swift */; };
 		4340B0572BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B0562BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift */; };
 		4340B0592BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340B0582BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift */; };
+		4340B0672BAF4F47007D0D4E /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4340B0662BAF4F46007D0D4E /* Pacifico-Regular.ttf */; };
+		436DC5972BBBEBA800AC9834 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436DC5962BBBEBA800AC9834 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4336BA612BB5798C00B477C6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4336BA632BB57ADE00B477C6 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		4340B0382BAF4C46007D0D4E /* ShriGanesh Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShriGanesh Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4340B03B2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardApp.swift; sourceTree = "<group>"; };
 		4340B03D2BAF4C46007D0D4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,8 @@
 		4340B0522BAF4C49007D0D4E /* ShriGanesh CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShriGanesh CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4340B0562BAF4C49007D0D4E /* ShriGanesh_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardUITests.swift; sourceTree = "<group>"; };
 		4340B0582BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriGanesh_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4340B0662BAF4F46007D0D4E /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		436DC5962BBBEBA800AC9834 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoView.swift; path = ../../../../Documents/InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +102,13 @@
 		4340B03A2BAF4C46007D0D4E /* ShriGanesh Card */ = {
 			isa = PBXGroup;
 			children = (
+				4340B0652BAF4EF0007D0D4E /* fonts */,
 				4340B03B2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift */,
 				4340B03D2BAF4C46007D0D4E /* ContentView.swift */,
 				4340B03F2BAF4C49007D0D4E /* Assets.xcassets */,
+				4336BA612BB5798C00B477C6 /* LaunchScreen.storyboard */,
+				4336BA632BB57ADE00B477C6 /* info.plist */,
+				436DC5962BBBEBA800AC9834 /* InfoView.swift */,
 				4340B0412BAF4C49007D0D4E /* Preview Content */,
 			);
 			path = "ShriGanesh Card";
@@ -125,6 +137,14 @@
 				4340B0582BAF4C49007D0D4E /* ShriGanesh_CardUITestsLaunchTests.swift */,
 			);
 			path = "ShriGanesh CardUITests";
+			sourceTree = "<group>";
+		};
+		4340B0652BAF4EF0007D0D4E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4340B0662BAF4F46007D0D4E /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4336BA642BB57ADE00B477C6 /* info.plist in Resources */,
+				4340B0672BAF4F47007D0D4E /* Pacifico-Regular.ttf in Resources */,
+				4336BA622BB5798C00B477C6 /* LaunchScreen.storyboard in Resources */,
 				4340B0432BAF4C49007D0D4E /* Preview Assets.xcassets in Resources */,
 				4340B0402BAF4C49007D0D4E /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436DC5972BBBEBA800AC9834 /* InfoView.swift in Sources */,
 				4340B03E2BAF4C46007D0D4E /* ContentView.swift in Sources */,
 				4340B03C2BAF4C46007D0D4E /* ShriGanesh_CardApp.swift in Sources */,
 			);
